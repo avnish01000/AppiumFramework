@@ -1,0 +1,15 @@
+1. super(driver)- IT will trigger constructor of parent class
+
+2. -Flow in eCommerce_tc_4_Hybrid
+   -@BeforeClass(Strting Appium, Invoking/Installing App) ->@Test -->@AfterClass
+   -100 test java file will need to trigger @BeforeClass 100 times
+
+3. -Flow in eCommerce_tc_2
+   -@BeforeClass(Strting Appium, Invoking/Installing App) ->BeforeMEthod,@Test,BeforeMEthod,@Test -->@AfterClass
+
+4. -Data Provider will run same test cases for the number of data sets present in it.
+
+5. Steps Involved:
+   Apache Commons IO -Parse Json file-->Json String
+   Jackson Databind-read json string to HashMap
+   HashMap->Testcase(Testng Data provider)

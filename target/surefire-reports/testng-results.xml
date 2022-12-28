@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-28T15:41:45 IST" name="Suite" finished-at="2022-12-28T15:44:47 IST" duration-ms="182086">
+    <groups>
+      <group name="Smoke">
+        <method signature="eCommerce_tc_4_Hybrid.FillForm(java.util.HashMap)[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_4_Hybrid@5b799640]" name="FillForm" class="org.rahulshettyacademy.eCommerce_tc_4_Hybrid"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-12-28T15:41:45 IST" name="End To End Framework Test" finished-at="2022-12-28T15:43:55 IST" duration-ms="129766">
+      <class name="org.rahulshettyacademy.eCommerce_tc_4_Hybrid">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_4_Hybrid@5b799640]" started-at="2022-12-28T15:41:45 IST" name="ConfigureAppium" finished-at="2022-12-28T15:42:01 IST" duration-ms="15326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_4_Hybrid@5b799640]" started-at="2022-12-28T15:42:01 IST" name="preSetup" finished-at="2022-12-28T15:42:02 IST" duration-ms="748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="FillForm(java.util.HashMap)[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_4_Hybrid@5b799640]" started-at="2022-12-28T15:42:02 IST" name="FillForm" data-provider="getData" finished-at="2022-12-28T15:42:58 IST" duration-ms="56506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=rahul shetty, country=Argentina, gender=Female}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_4_Hybrid@5b799640]" started-at="2022-12-28T15:42:58 IST" name="preSetup" finished-at="2022-12-28T15:42:59 IST" duration-ms="862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="FillForm(java.util.HashMap)[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_4_Hybrid@5b799640]" started-at="2022-12-28T15:42:59 IST" name="FillForm" data-provider="getData" finished-at="2022-12-28T15:43:54 IST" duration-ms="54926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Avnish Sharma, country=Argentina, gender=Male}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_4_Hybrid@5b799640]" started-at="2022-12-28T15:43:54 IST" name="tearDown" finished-at="2022-12-28T15:43:55 IST" duration-ms="893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.rahulshettyacademy.eCommerce_tc_4_Hybrid -->
+    </test> <!-- End To End Framework Test -->
+    <test started-at="2022-12-28T15:43:56 IST" name="Error Validation Test" finished-at="2022-12-28T15:44:47 IST" duration-ms="51650">
+      <class name="org.rahulshettyacademy.eCommerec_tc_2">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.rahulshettyacademy.eCommerec_tc_2@5a5a729f]" started-at="2022-12-28T15:43:56 IST" name="ConfigureAppium" finished-at="2022-12-28T15:44:07 IST" duration-ms="11288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:org.rahulshettyacademy.eCommerec_tc_2@5a5a729f]" started-at="2022-12-28T15:44:07 IST" name="preSetup" finished-at="2022-12-28T15:44:08 IST" duration-ms="737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="FillForm_ErrorValidation()[pri:0, instance:org.rahulshettyacademy.eCommerec_tc_2@5a5a729f]" started-at="2022-12-28T15:44:08 IST" name="FillForm_ErrorValidation" finished-at="2022-12-28T15:44:18 IST" duration-ms="10468" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Please enter your name:] but found [Please enter your name]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Please enter your name:] but found [Please enter your name]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at org.rahulshettyacademy.eCommerec_tc_2.FillForm_ErrorValidation(eCommerec_tc_2.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm_ErrorValidation -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:org.rahulshettyacademy.eCommerec_tc_2@5a5a729f]" started-at="2022-12-28T15:44:19 IST" name="preSetup" finished-at="2022-12-28T15:44:20 IST" duration-ms="843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="FillForm_PositiveFlow()[pri:0, instance:org.rahulshettyacademy.eCommerec_tc_2@5a5a729f]" started-at="2022-12-28T15:44:20 IST" name="FillForm_PositiveFlow" finished-at="2022-12-28T15:44:45 IST" duration-ms="24880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm_PositiveFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rahulshettyacademy.eCommerec_tc_2@5a5a729f]" started-at="2022-12-28T15:44:45 IST" name="tearDown" finished-at="2022-12-28T15:44:47 IST" duration-ms="2090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.rahulshettyacademy.eCommerec_tc_2 -->
+    </test> <!-- Error Validation Test -->
+  </suite> <!-- Suite -->
+</testng-results>
